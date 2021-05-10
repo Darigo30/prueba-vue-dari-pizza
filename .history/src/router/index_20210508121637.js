@@ -28,12 +28,6 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "carrito" */ "../views/Carrito.vue"),
   },
-  {
-    path: "*",
-    name: "error404",
-    component: () =>
-      import(/* webpackChunkName: "error404" */ "../views/error404.vue"),
-  },
   // {
   //   path: "/about",
   //   name: "About",
